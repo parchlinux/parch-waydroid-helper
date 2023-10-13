@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt6 import QtCore, QtGui, QtWidgets
 import psutil
 import os
 import sys
@@ -91,4 +91,4 @@ if __name__ == "__main__":
     ui = Ui_main_window()
     ui.setupUi(main_window)
     main_window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
